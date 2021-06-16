@@ -1,0 +1,3 @@
+2021-06-16
+    - Stopped at P. 22 of Mathematics for Machine Learning. Matrix Addition and Multiplication.
+    - Created class to store 2-d array representing matrix coefficients and having row and column count as properties, i.e. instance variables. Class has method `add` which is also used for subratction by setting a parameter.
