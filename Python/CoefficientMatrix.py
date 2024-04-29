@@ -10,7 +10,7 @@ class CoefficientMatrix:
     
     def add(self, matrix, reverse_addend_sign = False):
         if not ((len(matrix) == self.rows) and (len(matrix[0]) == self.columns)):
-            return ValueError()
+            return ValueError('Left-side matrix must have the same number of rows as columns in the right-side matrix.')
         
         if reverse_addend_sign:            
             row_index = 0
