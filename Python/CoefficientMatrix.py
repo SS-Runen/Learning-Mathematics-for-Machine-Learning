@@ -65,23 +65,23 @@ if __name__ == "__main__":
     import pprint
 
     #Testing Additon and Subtraction
-    # A_3x3 = CoefficientMatrix(
-    #     [
-    #         [1, 2, 3],
-    #         [4, 5, 6],
-    #         [7, 8, 9]
-    #     ]
-    # )
+    A_3x3 = CoefficientMatrix(
+        [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+    )
 
-    # list_B_3x3 = [
-    #         [3, 3, 3],
-    #         [3, 3, 3],
-    #         [3, 3, 3]
-    #     ]
-    # B_3x3 = CoefficientMatrix(list_B_3x3)
+    list_B_3x3 = [
+            [3, 3, 3],
+            [3, 3, 3],
+            [3, 3, 3]
+        ]
+    B_3x3 = CoefficientMatrix(list_B_3x3)
 
-    # pprint.pprint(A_3x3.add(B_3x3.coeff_matrix))
-    # pprint.pprint(A_3x3.add(B_3x3.coeff_matrix, reverse_addend_sign=True))
+    pprint.pprint(A_3x3.add(B_3x3.coeff_matrix))
+    pprint.pprint(A_3x3.add(B_3x3.coeff_matrix, reverse_addend_sign=True))
 
     #Testing Matrix by Matrix Multiplication
     multiplier_list = [
